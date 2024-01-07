@@ -16,6 +16,7 @@
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <archetype.encoding>${encoding}</archetype.encoding>
         <cucumber.version>1.2.5</cucumber.version>
+        <joda-time.version>LATEST</joda-time.version>
         <selenium.version>3.0.1</selenium.version>
     </properties>
 
@@ -173,7 +174,7 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.12.5</version>
+            <version>${joda-time.version}</version>
         </dependency>
 
 
